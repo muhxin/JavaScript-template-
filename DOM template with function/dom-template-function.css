@@ -1,0 +1,460 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+body{
+    background : #fff;
+    font-family: Poppins, sans-serif;
+  
+}
+.header{
+    width: 100%;
+    height: 90px;
+    display: flex;
+	position: fixed;
+    background: whitesmoke;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 100;
+    transition: all .5s ease 0s;
+  
+}
+
+.menu{
+    width: 100%;
+    height: 80px;
+	margin-top:22px;
+	padding : 0px 10px;
+     background: whitesmoke;
+}
+
+.logo{
+    width:21%;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 0px;
+}
+   
+.logo-img{
+    width:92%;
+
+}
+
+ul{
+    float: right;
+    margin-top: 7px;
+	margin-right:24px;
+	display:flex;
+	flex-wrap: wrap;    
+	width:61%;
+}
+
+.menu ul li{
+    list-style: none;
+    text-decoration: none;
+    letter-spacing: 1px;
+	padding:0px 12px;
+	line-height: 40px;
+    border: transparent;
+	display: block;
+	font-size:14px;
+    font-weight: 800;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+.main-div{
+	width:96%;
+	height:408px;
+	margin-top:160px;
+	display:flex;
+	flex-wrap:wrap;
+	margin-left:15px;
+	margin-right:10px;
+}
+
+
+.secdiv{
+	width:49%;
+	display:flex;
+   	flex-wrap:wrap;
+	background-image: url(images/left-banner-image.jpg);
+	background-size :cover;
+	margin-right:9px;
+	
+}
+
+.secdiv .sub-section-div{
+	width:40%;
+	height:300px;
+	position:absolute;
+	margin-left:80px;
+	margin-top:60px;
+}
+
+.secdiv h1 {
+	color:white;
+	font-size:55px;
+	font-weight:bold;
+	margin-top:30px;
+	margin-left:10px;
+	font-family: Poppins, sans-serif;
+	
+	
+}
+
+.secdiv p {
+    color:white;
+	font-size:18px;
+	margin-top:20px;
+	font-style:italic;
+	margin-left:10px;
+}
+
+.secdiv .btn {
+	text-align:center;
+	font-size:14px;
+	padding :14px 24px;
+	background:transparent;
+	color:white;
+	border: 1px solid white;
+	margin-top:30px;
+	margin-left:10px;
+	font-weight: 600;
+	line-height:1.3;
+    transition: all .3s;
+}
+.btn:hover{
+	background:white;
+	color:black;
+}
+
+
+.combo {
+	width : 48%;
+	display:grid;
+	grid-template-columns : 1fr 1fr;
+	grid-gap : 30px;
+	height:408px;
+	margin-left:20px;
+}
+
+.women-section-div {	
+	background-image: url(images/baner-right-image-01.jpg);
+	background-size : cover;
+    width: 100%;
+    height: 190px;	
+	
+}
+
+.women-outerdiv{
+	position: absolute;
+    width: 22%;
+
+}
+
+.women-outerdiv h1 {
+    font-size:25px;
+	font-weight:800;         
+	text-align:center;
+    margin-top: 55px;	
+	color:white;
+}
+
+.women-outerdiv p {
+	font-size :17px;
+	text-align:center;
+	font-style:oblique;
+	color:white;
+	margin-top:15px;
+	
+}
+
+.women-hoverdiv {
+	width:19%;
+	height:160px;
+    background-color:black;
+	position:absolute;
+    transform: translate(44px,55px);	
+	transition: all .3s;
+    top: 122px;
+    right: 15px;
+    left: 489px;
+    bottom: 15px;
+    text-align: center;
+	z-index:1;
+	display:none;	
+}
+
+
+.women-inerdiv{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    width: 100%;
+}	
+
+.women-inerdiv h2 {
+	font-size : 24px;
+	font-weight:600;
+	text-align :center;
+	margin-top:0px;
+	color:white;
+}
+
+.women-inerbtn {
+	text-align:center;
+	font-size:15px;
+	color:white;
+	padding :12px 26px;
+	margin-left:10px;
+	margin-top:17px;
+	background:transparent;
+	border: 1px solid white;
+	transition: all .3s
+}
+.women-inerbtn:hover{
+	background:white;
+	color:black;
+}
+
+
+.men-section-div{
+	background-image: url(images/baner-right-image-02.jpg);
+	background-size:cover;
+	width: 100%;
+    height: 190px;
+}
+
+
+.outermendiv{
+	position: absolute;
+    width: 22%;
+
+}
+.outermendiv h1 {
+	font-size:24px;
+	font-weight:800;
+	color:white;
+	text-align:center;
+    margin-top: 58px;
+}
+
+.outermendiv p {
+	font-size: 18px;
+	color:white;
+	text-align:center;
+	font-style:oblique;
+	margin-top:16px;
+}
+
+
+.hovermendiv {
+	width:19%;
+	height:160px;
+    background-color:black;
+	position:absolute;
+    transform: translate(44px,55px);	
+	transition: all .3s;
+    top: 122px;
+    right: 15px;
+    left: 735px;
+    bottom: 15px;
+    text-align: center;
+	z-index:2; 
+	display:none;	
+}
+
+
+ .inermendiv{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    width: 100%;
+}	
+
+ .inermendiv h2 {
+	font-size : 24px;
+	font-weight:600;
+	text-align :center;
+	margin-top:0px;
+	color:white;
+}
+
+.inermenbtn {
+	text-align:center;
+	font-size:15px;
+	color:white;
+	padding :12px 26px;
+	margin-left:10px;
+	margin-top:17px;
+	background:transparent;
+	border: 1px solid white;
+	transition: all .3s
+}
+.inermenbtn:hover{
+	background:white;
+	color:black;
+}
+
+
+.kids {
+	background-image: url(images/baner-right-image-03.jpg);
+	background-size: cover;
+    width: 100%;
+    height: 190px;	
+}
+
+.outerkidsdiv{
+	position: absolute;
+    width: 22%;
+
+}
+.outerkidsdiv h1 {
+	font-size:24px;
+	font-weight:800;
+	color:white;
+	text-align:center;
+    margin-top: 58px;
+}
+
+.outerkidsdiv p {
+	font-size: 18px;
+	color:white;
+	text-align:center;
+	font-style:oblique;
+	margin-top:16px;
+}
+
+.hoverkidsdiv {
+	width:19%;
+	height:160px;
+    background-color:black;
+	position:absolute;
+    transform: translate(44px,55px);	
+	transition: all .3s;
+    top: 340px;
+    right: 15px;
+    left: 489px;
+    bottom: 15px;
+    text-align: center;
+	z-index:2; 
+	display:none;	
+}
+
+
+ .inerkidsdiv{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    width: 100%;
+}	
+
+ .inerkidsdiv h2 {
+	font-size : 24px;
+	font-weight:600;
+	text-align :center;
+	margin-top:0px;
+	color:white;
+}
+
+.inerkidsbtn {
+	text-align:center;
+	font-size:15px;
+	color:white;
+	padding :12px 26px;
+	margin-left:10px;
+	margin-top:17px;
+	background:transparent;
+	border: 1px solid white;
+	transition: all .3s
+}
+.inerkidsbtn:hover{
+	background:white;
+	color:black;
+}
+
+
+.acesorydiv {
+	background-image: url(images/baner-right-image-04.jpg);
+	background-size: cover;
+    width: 100%;
+    height: 190px;	
+}
+
+
+.outeracesorydiv{
+	position: absolute;
+    width: 22%;
+
+}
+.outeracesorydiv h1 {
+	font-size:24px;
+	font-weight:800;
+	color:white;
+	text-align:center;
+    margin-top: 58px;
+}
+
+.outeracesorydiv p {
+	font-size: 14px;
+	color:white;
+	text-align:center;
+	font-style:oblique;
+	margin-top:16px;
+}
+
+.hoveracesorydiv {
+	width:19%;
+	height:160px;
+    background-color:black;
+	position:absolute;
+    transform: translate(44px,55px);	
+	transition: all .3s;
+    top: 340px;
+    right: 15px;
+    left: 735px;
+    bottom: 15px;
+    text-align: center;
+	z-index:2; 
+	display:none;	
+}
+
+
+ .ineracesorydiv{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    width: 100%;
+}	
+
+ .ineracesorydiv h2 {
+	font-size : 24px;
+	font-weight:600;
+	text-align :center;
+	margin-top:0px;
+	color:white;
+}
+
+.ineracesorybtn {
+	text-align:center;
+	font-size:15px;
+	color:white;
+	padding :12px 26px;
+	margin-left:10px;
+	margin-top:17px;
+	background:transparent;
+	border: 1px solid white;
+	transition: all .3s
+}
+.ineracesorybtn:hover{
+	background:white;
+	color:black;
+}

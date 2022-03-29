@@ -1,0 +1,309 @@
+.heading-div{
+  width:90%;
+  margin-top:61px;
+  margin-left:40px;
+}
+
+.heading-div h1 {
+	font-size:30px;
+	font-weight:700;
+
+}
+
+.heading-div p {
+	font-size: 14px;
+    color: #a1a1a1;
+    font-style: italic;
+    font-weight: 400;
+}
+
+
+.div-content {
+	width:100%;
+	height:190px;
+	margin-top:40px;
+}
+
+.outer-div {
+	width:94%;
+	height:170px;
+	display: inline-flex;
+    flex-wrap: wrap;
+	margin:30px;
+}
+
+.iner-div1{
+	width:17%;
+	background-image: url(images/instagram-01.jpg);
+	background-size: cover;
+	height:156px;
+}
+
+.iner-div1 .inside-div1{
+	width:16%;
+	height:156px;
+	background:black;
+    top: 3577px;
+	bottom:0px;
+	left:30px;
+	position:absolute;
+	opacity: 0;
+    visibility: hidden;
+    transition: all .3s;
+	
+	
+}
+
+.iner-div1:hover .inside-div1{
+	visibility:visible;
+	top:3577px;
+	opacity:1;
+	left:30px;
+}
+
+.inside-div1 h1 {
+	font-size:18px;
+	color:white;
+	margin-left: 20px;
+    margin-top: 90px;	
+}
+
+.inside-div1 li {
+	list-style:none;
+	text-decoration:none;
+	font-size:24px;
+	color:white;
+	margin-left: 20px;
+    margin-top: 8px;
+}
+
+
+.iner-div2{
+	width:17%;
+	background-image: url(images/instagram-02.jpg);
+	background-size: cover;
+	height:156px;
+}
+
+.iner-div2 .inside-div2{
+	width:17%;
+	height:156px;
+	background:black;
+    top: 3577px;
+	bottom:0px;
+	left:181px;
+	position:absolute;
+	opacity: 0;
+    visibility: hidden;
+    transition: all .3s;
+	
+	
+}
+
+.iner-div2:hover .inside-div2{
+	visibility:visible;
+	top:3577px;
+	opacity:1;
+
+}
+
+.inside-div2 h1 {
+	font-size:18px;
+	color:white;
+	margin-left: 20px;
+    margin-top: 90px;	
+}
+
+.inside-div2 li {
+	list-style:none;
+	text-decoration:none;
+	font-size:24px;
+	color:white;
+	margin-left: 20px;
+    margin-top: 8px;
+}
+
+
+.iner-div3{
+	width:17%;
+	background-image: url(images/instagram-03.jpg);
+	background-size: cover;
+	height:156px;
+}
+
+
+.iner-div3 .inside-div3{
+	width:16%;
+	height:156px;
+	background:black;
+    top: 3577px;
+	bottom:0px;
+	left:352px;
+	position:absolute;
+	opacity: 0;
+    visibility: hidden;
+    transition: all .3s;
+	
+	
+}
+
+.iner-div3:hover .inside-div3{
+	visibility:visible;
+	top:3577px;
+	opacity:1;
+
+}
+
+.inside-div3 h1 {
+	font-size:18px;
+	color:white;
+	margin-left: 20px;
+    margin-top: 90px;	
+}
+
+.inside-div3 li {
+	list-style:none;
+	text-decoration:none;
+	font-size:24px;
+	color:white;
+	margin-left: 20px;
+    margin-top: 8px;
+}
+
+
+.iner-div4{
+	width:17%;
+	background-image: url(images/instagram-04.jpg);
+	background-size: cover;
+	height:156px;
+}
+
+.iner-div4 .inside-div4{
+	width:16%;
+	height:156px;
+	background:black;
+    top: 3577px;
+	bottom:0px;
+	left:513px;
+	position:absolute;
+	opacity: 0;
+    visibility: hidden;
+    transition: all .3s;
+	
+	
+}
+
+.iner-div4:hover .inside-div4{
+	visibility:visible;
+	top:3577px;
+	opacity:1;
+
+}
+
+.inside-div4 h1 {
+	font-size:18px;
+	color:white;
+	margin-left: 20px;
+    margin-top: 90px;	
+}
+
+.inside-div4 li {
+	list-style:none;
+	text-decoration:none;
+	font-size:24px;
+	color:white;
+	margin-left: 20px;
+    margin-top: 8px;
+}
+
+
+.iner-div5{
+	width:16%;
+	background-image: url(images/instagram-05.jpg);
+	background-size: cover;
+	height:156px;
+}
+.iner-div5 .inside-div5{
+	width:15%;
+	height:156px;
+	background:black;
+    top: 3577px;
+	bottom:0px;
+	left:674px;
+	position:absolute;
+	opacity: 0;
+    visibility: hidden;
+    transition: all .3s;
+	
+	
+}
+
+.iner-div5:hover .inside-div5{
+	visibility:visible;
+	top:3577px;
+	opacity:1;
+
+}
+
+.inside-div5 h1 {
+	font-size:18px;
+	color:white;
+	margin-left: 20px;
+    margin-top: 90px;	
+}
+
+.iner-div5  .inside-div5 li{
+	list-style:none;
+	text-decoration:none;
+	font-size:24px;
+	color:white;
+	margin-left: 20px;
+    margin-top: 8px;
+}
+
+
+
+.iner-div6{
+	width:16%;
+	background-image: url(images/instagram-06.jpg);
+	background-size: cover;
+	height:156px;
+}
+
+.iner-div6 .inside-div6{
+	width:15%;
+	height:156px;
+	background:black;
+    top: 3577px;
+	bottom:0px;
+	left:825Px;
+	position:absolute;
+	opacity: 0;
+    visibility: hidden;
+    transition: all .3s;
+	
+	
+}
+
+.iner-div6:hover .inside-div6{
+	visibility:visible;
+	top:3577px;
+	opacity:1;
+
+}
+
+.inside-div6 h1 {
+	font-size:18px;
+	color:white;
+	margin-left: 20px;
+    margin-top: 90px;	
+}
+
+.inside-div6 li {
+	list-style:none;
+	text-decoration:none;
+	font-size:24px;
+	color:white;
+	margin-left: 20px;
+    margin-top: 8px;
+}
